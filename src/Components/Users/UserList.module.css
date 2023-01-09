@@ -14,3 +14,14 @@
     margin: 0.5rem 0;
     padding: 0.5rem;
   }
+
+  .name{
+    background-color: aquamarine;
+  }
+
+  .college{
+    background-color:aquamarine;
+    font-weight: 700;
+    font-size: larger;
+
+  }

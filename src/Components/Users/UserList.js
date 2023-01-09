@@ -4,10 +4,10 @@ import classes from './UserList.module.css';
 const UserList=(props)=>{
     return(
         <Card className={classes.users}>
-        <ul>
+        <ul >
             {props.users.map((user)=>(
                 <li key={user.id}>
-                    {user.name} ({user.age} years old)
+                   <b className={classes.name}> {user.name} -({user.age} years old)</b> --<b className={ classes.college}>(college Name  :{user.college})</b>
                 </li>
             ))}
         </ul>
